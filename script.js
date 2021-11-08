@@ -25,7 +25,7 @@ function compute()
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
-	document.getElementById("rate_val").innerText=rateval;
+	document.getElementById("rate_val").innerText=rateval +'%';
 }
 /* to validate if principal entered is positive number */
 function validate()
