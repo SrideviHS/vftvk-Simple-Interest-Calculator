@@ -1,4 +1,29 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+	position:absolute;
+	align:center;
+   	background-color:white;
+    color:black;
+    width:500px;
+	padding:20px;
+    border-radius:25px;
+    
+	
+}
+.inputposition {
+	position:relative;
+	left:100px;
+	}
+	
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
